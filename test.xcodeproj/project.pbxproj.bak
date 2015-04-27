@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7c2d8666ce2f769632ce2370 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88cbcdcb18e8284bd2a013d2 /* CFNetwork.framework */; };
-		811b3f9d030ae61774477cb4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64261E31AEE310E008B29EF /* LaunchScreen.xib */; };
 		A64261D71AEE310E008B29EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64261D61AEE310E008B29EF /* main.m */; };
 		A64261DA1AEE310E008B29EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64261D91AEE310E008B29EF /* AppDelegate.m */; };
 		A64261DD1AEE310E008B29EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64261DC1AEE310E008B29EF /* ViewController.m */; };
@@ -16,12 +14,6 @@
 		A64261E21AEE310E008B29EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64261E11AEE310E008B29EF /* Images.xcassets */; };
 		A64261E51AEE310E008B29EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64261E31AEE310E008B29EF /* LaunchScreen.xib */; };
 		A64261F11AEE310F008B29EF /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64261F01AEE310F008B29EF /* testTests.m */; };
-		a710f5f7d4c414361c8ee1a4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64261DE1AEE310E008B29EF /* Main.storyboard */; };
-		b69e9897b8ad85403c46883c /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64261E11AEE310E008B29EF /* Images.xcassets */; };
-		bb7462a53fb7a06a733db79c /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64261D61AEE310E008B29EF /* main.m */; };
-		cdc55116810e9cccb31eee6d /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986d5e79da66c7f6a8cf75a0 /* calabash.framework */; };
-		ce02c97a34647d445ef3709c /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64261D91AEE310E008B29EF /* AppDelegate.m */; };
-		f52ed45fe670e1bc711ca8ff /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64261DC1AEE310E008B29EF /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88cbcdcb18e8284bd2a013d2 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		986d5e79da66c7f6a8cf75a0 /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
-		A612EA231AEE705F00E732E1 /* test-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64261D11AEE310E008B29EF /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64261D51AEE310E008B29EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A64261D61AEE310E008B29EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,15 +57,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		a90f455b9d9798f5c031c671 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7c2d8666ce2f769632ce2370 /* CFNetwork.framework in Frameworks */,
-				cdc55116810e9cccb31eee6d /* calabash.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,7 +75,6 @@
 			children = (
 				A64261D11AEE310E008B29EF /* test.app */,
 				A64261EA1AEE310F008B29EF /* testTests.xctest */,
-				A612EA231AEE705F00E732E1 /* test-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,8 +123,6 @@
 		A6AA42F51AEE675C000F9D6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88cbcdcb18e8284bd2a013d2 /* CFNetwork.framework */,
-				986d5e79da66c7f6a8cf75a0 /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,23 +130,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69c2ca1f932e7f8971cdcfb5 /* test-cal */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = b322c6f3774c627d876f6f65 /* Build configuration list for PBXNativeTarget "test-cal" */;
-			buildPhases = (
-				955a9208421c52a5061935f5 /* Sources */,
-				a90f455b9d9798f5c031c671 /* Frameworks */,
-				2754d993d3864e51d881e7a0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "test-cal";
-			productName = "test-cal";
-			productReference = A612EA231AEE705F00E732E1 /* test-cal.app */;
-			productType = "com.apple.product-type.application";
-		};
 		A64261D01AEE310D008B29EF /* test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A64261F41AEE310F008B29EF /* Build configuration list for PBXNativeTarget "test" */;
@@ -238,22 +198,11 @@
 			targets = (
 				A64261D01AEE310D008B29EF /* test */,
 				A64261E91AEE310F008B29EF /* testTests */,
-				69c2ca1f932e7f8971cdcfb5 /* test-cal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2754d993d3864e51d881e7a0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				a710f5f7d4c414361c8ee1a4 /* Main.storyboard in Resources */,
-				811b3f9d030ae61774477cb4 /* LaunchScreen.xib in Resources */,
-				b69e9897b8ad85403c46883c /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A64261CF1AEE310D008B29EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,16 +223,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		955a9208421c52a5061935f5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				f52ed45fe670e1bc711ca8ff /* ViewController.m in Sources */,
-				ce02c97a34647d445ef3709c /* AppDelegate.m in Sources */,
-				bb7462a53fb7a06a733db79c /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A64261CD1AEE310D008B29EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,48 +271,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		105fd1c8f173a174eaccbc2e /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				INFOPLIST_FILE = test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-force_load",
-					"\"$(SRCROOT)/calabash.framework/calabash\"",
-					"-lstdc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9362908dd8360765d85e3f59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				INFOPLIST_FILE = test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-force_load",
-					"\"$(SRCROOT)/calabash.framework/calabash\"",
-					"-lstdc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
 		A64261F21AEE310F008B29EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,15 +429,6 @@
 			buildConfigurations = (
 				A64261F81AEE310F008B29EF /* Debug */,
 				A64261F91AEE310F008B29EF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		b322c6f3774c627d876f6f65 /* Build configuration list for PBXNativeTarget "test-cal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9362908dd8360765d85e3f59 /* Debug */,
-				105fd1c8f173a174eaccbc2e /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
